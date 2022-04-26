@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* navbar */
 nav img {
     width: 200px;
@@ -72,4 +76,179 @@ section.hero .text a {
     padding: 10px 50px;
     border-radius: 10px;
     margin-top: 22px;
+}
+
+/* Form Pencarian */
+section.form {
+    padding: 0 74px;
+    margin-top: 50px;
+}
+
+/* section.form .col {
+    border: 2px solid ;
+} */
+section.form {
+    position: relative;
+}
+section.form input {
+    width: 100%;
+    height: 80px;
+    background: #FFFFFF;
+    border: 4px solid #AD213F;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+
+section.form input::placeholder {
+    color: #AD213F;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 100px !important;
+}
+
+section.form::before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    left: 100px;
+    position: absolute;
+    display: block;
+    background: url(../img/cari.png) no-repeat;
+    background-size: cover;
+}
+
+section.form button {
+    background: #AD213F;
+    border-radius: 24px;
+    Width: 272px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    margin-left: 100px;
+}
+
+/* darah */
+section.darah {
+    margin: 100px 80px 0;
+}  
+
+section.darah .card {
+    background: #AD213F;
+    border: 4px solid #AD213F;
+    border-radius: 20px;
+    text-align: center;
+}
+
+section.darah .card .card-header {
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 30px 40px;
+}
+
+section.darah .card .card-header img {
+    width: 145px;
+    padding: 0 auto;
+
+}   
+
+section.darah .card .card-footer {
+    background: #AD213F;
+    border-radius: 20px;
+    color: white;
+}
+
+section.darah .card .card-footer h3 {
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+/* menu */
+section.menu {
+    background-color: #AD213F;
+    box-sizing: border-box;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 100px;
+    border-radius: 20px;
+    text-align: center;
+    /* height: 200px; */
+}
+
+section.menu img {
+    margin-top: 46px;
+}
+
+section.menu p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+section.menu .menu {
+    border-right: 4px solid white;
+}
+
+/* saran */
+section.saran {
+    margin: 100px 80px 0;
+    text-align: center;
+}
+
+section.saran label {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #AD213F;
+    text-align: left !important;
+}
+
+section.saran textarea {
+    border: 6px solid #AD213F;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+section.saran textarea::placeholder {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #AD213F;
+    padding-top: 22px;
+    padding-left: 32px;
+}
+
+/* footer */
+section.footer {
+    margin-top: 100px;
+    background-color: #C4C4C4;
+    padding-top: 100px;
+}
+
+section.footer img {
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+section.footer a {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+section.footer p.copy {
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 80px;
 }
