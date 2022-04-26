@@ -37,7 +37,7 @@ nav .navbar-nav a.signup {
 }
 
 /* hero */
-section.hero {
+/* section.hero {
     padding: 30px 30px;
     position: relative;
 }
@@ -47,7 +47,16 @@ section.hero {
     background: url(../img/hero.jpg) no-repeat;
     background-size: cover;
     border-radius: 50px;
+} */
+
+.carousel {
+    height: 600px;
+    margin: 30px auto;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 20px 20px;
 }
+
 
 section.hero .text {
     margin-top: 160px;
@@ -199,6 +208,12 @@ section.menu .menu {
 section.saran {
     margin: 100px 80px 0;
     text-align: center;
+}
+
+section.saran button {
+    margin-top: 10px;
+    width: 830px;
+    border-radius: 10px;
 }
 
 section.saran label {
