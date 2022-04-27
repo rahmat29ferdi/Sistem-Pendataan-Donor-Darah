@@ -122,7 +122,7 @@ section.form input::placeholder {
     font-style: italic;
     font-weight: 400;
     font-size: 24px;
-    padding-left: 100px;
+    /* padding-left: 200px; */
 }
 
 section.form::before {
