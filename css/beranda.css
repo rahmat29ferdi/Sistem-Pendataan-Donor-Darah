@@ -37,7 +37,7 @@ nav .navbar-nav a.signup {
 }
 
 /* hero */
-/* section.hero {
+section.hero {
     padding: 30px 30px;
     position: relative;
 }
@@ -47,15 +47,15 @@ nav .navbar-nav a.signup {
     background: url(../img/hero.jpg) no-repeat;
     background-size: cover;
     border-radius: 50px;
-} */
+}
 
-.carousel {
+/* .carousel {
     height: 600px;
     margin: 30px auto;
     width: 90%;
     overflow: hidden;
     border-radius: 20px 20px;
-}
+} */
 
 
 section.hero .text {
@@ -77,8 +77,16 @@ section.hero .text p {
     font-size: 18px;
     margin-top: 14px;
 }
+/* section.carousel .carousel-item {
+    border: 2px solid red;
+}
 
-section.hero .text a {
+section.carousel .carousel-caption {
+    border: 2px solid red;
+    position: absolute;
+    top: 0;
+} */
+section.hero .text a { 
     color: white;
     text-decoration: none;
     background-color: #AD213F;
@@ -99,6 +107,7 @@ section.form {
 section.form {
     position: relative;
 }
+
 section.form input {
     width: 100%;
     height: 80px;
@@ -112,8 +121,8 @@ section.form input::placeholder {
     color: #AD213F;
     font-style: italic;
     font-weight: 400;
-    font-size: 20px;
-    padding-left: 100px !important;
+    font-size: 24px;
+    padding-left: 100px;
 }
 
 section.form::before {
