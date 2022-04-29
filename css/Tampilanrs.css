@@ -1,0 +1,174 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(231, 173, 173);
+  border-radius: 20px;
+  padding-left: 10px;
+  margin-bottom: 25px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.judul{
+  border: 4px solid #AD213F;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.text{
+  font-family: 'Poppins', sans-serif;
+}
+.za{
+border: 4px solid #AD213F;
+border-radius: 20px;
+margin-bottom: 20px;
+margin-top: 20px;
+width: 40%;
+margin: 0 auto;
+text-align: center;
+}
+
+
+.za .darah1 {
+  display: flex;
+  margin: 30px 0;
+}
+
+.za .darah1 img {
+  margin-right: 20px;
+}
+
+.za .darah1 .text {
+  margin-right: 100px
+}
+
+.za .darah2 {
+  display: flex;
+}
+
+.za .darah2 img {
+  margin-right: 20px;
+}
+
+.za .darah2 .text {
+  margin-right: 100px
+}
+
+.mrx{
+  border: 4px solid #AD213F;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  }
+
+.mrx .darah1 {
+  display: flex;
+  margin: 30px 0;
+ }
+  
+.mrx .darah1 img {
+  margin-right: 20px;
+}
+  
+.mrx .darah1 .text {
+  margin-right: 100px
+}
+  
+.mrx .darah2 {
+  display: flex;
+}
+  
+.mrx .darah2 img {
+  margin-right: 20px;
+}
+  
+.mrx .darah2 .text {
+  margin-right: 100px
+}
+
+.hbd{
+  border: 4px solid #AD213F;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  }
+
+.hbd .darah1 {
+  display: flex;
+  margin: 30px 0;
+ }
+  
+.hbd .darah1 img {
+  margin-right: 20px;
+}
+  
+.hbd .darah1 .text {
+  margin-right: 100px
+}
+  
+.hbd .darah2 {
+  display: flex;
+}
+  
+.hbd .darah2 img {
+  margin-right: 20px;
+}
+  
+.hbd .darah2 .text {
+  margin-right: 100px
+}
+
+/* footer */
+section.footer {
+  margin-top: 10px;
+  background-color: #C4C4C4;
+  padding-top: 10px;
+}
+
+section.footer img {
+  width: 300px;
+  margin-bottom: 25px;
+}
+
+section.footer a {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+section.footer p.copy {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 80px;
+}

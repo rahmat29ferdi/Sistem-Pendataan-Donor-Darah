@@ -11,9 +11,9 @@ body {
    }
    
    h1 {
-     font-size: 1.2em;
+     font-size: 1.8em;
      padding: 0;
-     margin: 0;
+     margin-bottom: 10px;
    }
    
    h2 {
@@ -100,6 +100,7 @@ body {
    
    }
    .input label {
+     margin-right: 190px;
      font-size: 1em;
      font-weight: 550;
    }
@@ -201,4 +202,3 @@ body {
        padding: 10px 0 0;
        width: 480px;
      }
-   }
