@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* navbar */
@@ -243,7 +244,7 @@ section.saran textarea {
 section.saran textarea::placeholder {
     font-style: italic;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 18px;
     line-height: 33px;
     color: #AD213F;
     padding-top: 22px;

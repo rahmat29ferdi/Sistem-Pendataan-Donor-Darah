@@ -186,9 +186,8 @@ body {
        grid-column: 6/9;
      }
    }
-   
-   
-   @media screen and (min-width: 960px) {
+
+   /* @media screen and (min-width: 960px) { */
      .container {
        width: 900px;
        height: 550px;

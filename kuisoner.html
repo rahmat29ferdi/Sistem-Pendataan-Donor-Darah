@@ -1,47 +1,82 @@
-<div class="container">
-  <link rel="stylesheet" href="css/kuisoner.css">
-  <form action="action_page.php">
-    <a href="home.html" class="previous" style="color: #AD213F; font-size: 18px; text-decoration: none; font-weight: bold;"> Kembali</a>
-    <br>
-    <div class="row">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstraps CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+     <!-- Custom CSS --> 
+     <link rel="stylesheet" href="css/kuisoner.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Beranda.html"><img src="img/logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="Beranda.html">Home</a>
+              <a class="nav-link" href="kuisoner.html">Order</a>
+              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link signin" href="login.html">Sign In</a>
+              <a class="nav-link signup" href="register.html">Sign Up</a>
+            </div>
+          </div>
         </div>
-        <div class="col-25">
-          <select id="rs" name="rs">
-            <option value="RS ZA">RSUD Zainal Abidin</option>
-            <option value="RS Meuraxa">RSUD Meuraxa</option>
-            <option value="RS Harapan bunda">RS Harapan Bunda</option>
-            <option value="RS Harapan bunda">Rumah Sakit Kesdam Iskandar Muda</option>
-            <option value="RS Harapan bunda">Rumah Sakit Ibu dan Anak (RSIA) Aceh</option>
-            <option value="RS Meuraxa">RSUD Lainnya</option>
-          </select>
+    </nav>
+    <div class="container">
+      <form action="action_page.php">
+        <a href="Beranda.html" class="previous" style="color: #AD213F; font-size: 18px; text-decoration: none; font-weight: bold;"> Kembali</a>
+        <br>
+        <div class="row">
+            </div>
+            <div class="col-25">
+              <select id="rs" name="rs">
+                <option value="RS ZA">RSUD Zainal Abidin</option>
+                <option value="RS Meuraxa">RSUD Meuraxa</option>
+                <option value="RS Harapan bunda">RS Harapan Bunda</option>
+                <option value="RS Harapan bunda">Rumah Sakit Kesdam Iskandar Muda</option>
+                <option value="RS Harapan bunda">Rumah Sakit Ibu dan Anak (RSIA) Aceh</option>
+                <option value="RS Meuraxa">RSUD Lainnya</option>
+              </select>
+            </div>
+          </div>
+          <br>  
+          <div class="col-5">
+            <label for="subject">Alasan memesan kantung darah</label>
+          </div>
+          <div class="col-5">
+            <textarea id="subject" name="subject" placeholder="Tulis disini.." style="height:200px"></textarea>
+          </div>
+          <div class="row">
+            <div class="col-5">
+              <label for="subject">Riwayat penyakit yang dimiliki</label>
+            </div>
+            <div class="col-5">
+              <textarea id="subject" name="subject" placeholder="Tulis disini.." style="height:200px"></textarea>
+            </div>
         </div>
+        <div class="row">
+          <div class="col-5">
+            <label for="subject">Banyaknya Kantung Darah</label>
+          </div>
+          <div class="col-5">
+            <input type="text" style="width: 5%;">
+          </div>
       </div>
-      <br>  
-      <div class="col-5">
-        <label for="subject">Alasan memesan kantung darah</label>
-      </div>
-      <div class="col-5">
-        <textarea id="subject" name="subject" placeholder="Tulis disini.." style="height:200px"></textarea>
-      </div>
-      <div class="row">
-        <div class="col-5">
-          <label for="subject">Riwayat penyakit yang dimiliki</label>
+        <div class="row">
+          <br>
+          <input type="submit" value="Konfirmasi">  
         </div>
-        <div class="col-5">
-          <textarea id="subject" name="subject" placeholder="Tulis disini.." style="height:200px"></textarea>
-        </div>
+      </form>
     </div>
-    <div class="row">
-      <div class="col-5">
-        <label for="subject">Banyaknya Kantung Darah</label>
-      </div>
-      <div class="col-5">
-        <input type="text" style="width: 5%;">
-      </div>
-  </div>
-    <div class="row">
-      <br>
-      <input type="submit" value="Konfirmasi">
-    </div>
-  </form>
-</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
