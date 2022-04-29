@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #930000;
+    background: #FBFBFB;
     font-family: 'Poppins', sans-serif;
    }
    
@@ -202,4 +202,3 @@ body {
        padding: 10px 0 0;
        width: 480px;
      }
-   }
