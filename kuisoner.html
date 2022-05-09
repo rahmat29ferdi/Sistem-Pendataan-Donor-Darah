@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="Beranda.html"><img src="img/logo.png" alt="logo"></a>
+          <a class="navbar-brand" href="Beranda.html"><img src="img/logo.png" width="200" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,8 +35,7 @@
         <a href="Beranda.html" class="previous" style="color: #AD213F; font-size: 18px; text-decoration: none; font-weight: bold;"> Kembali</a>
         <br>
         <div class="row">
-            </div>
-            <div class="col-25">
+            <div class="col">
               <select id="rs" name="rs">
                 <option value="RS ZA">RSUD Zainal Abidin</option>
                 <option value="RS Meuraxa">RSUD Meuraxa</option>
@@ -48,31 +47,26 @@
             </div>
           </div>
           <br>  
-          <div class="col-5">
+          <div class="col">
             <label for="subject">Alasan memesan kantung darah</label>
-          </div>
-          <div class="col-5">
             <textarea id="subject" name="subject" placeholder="Tulis disini.." style="height:200px"></textarea>
           </div>
-          <div class="row">
-            <div class="col-5">
+          
+            <div class="col">
               <label for="subject">Riwayat penyakit yang dimiliki</label>
-            </div>
-            <div class="col-5">
               <textarea id="subject" name="subject" placeholder="Tulis disini.." style="height:200px"></textarea>
             </div>
-        </div>
-        <div class="row">
-          <div class="col-5">
+       
+        
+          <div class="col">
             <label for="subject">Banyaknya Kantung Darah</label>
-          </div>
-          <div class="col-5">
+            <br>
             <input type="text" style="width: 5%;">
           </div>
-      </div>
-        <div class="row">
+        <div class="col">
           <br>
           <input type="submit" value="Konfirmasi"> 
+          <button type="reset" class="btn btn-outline-danger">Cancel</button>
         </div>
       </form>
     </div>
