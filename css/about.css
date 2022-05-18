@@ -88,9 +88,7 @@ section.about .team .card .card-header {
 
 section.about .team .card .card-header img {
     border-radius: 20px;
-    height: 80%;
     position: center;
-    image-orientation: 80%;
 }
 
 section.about .team .card .card-footer {
