@@ -81,31 +81,31 @@
                     <h2>Golongan darah B</h2>
                 </div>
               </div>
-            <div>
+            <div><form action="b_za.php" method="POST">
                 <br>
                 <div class="col-5">
                     <label for="subject">Input jumlah kantung darah yang masuk</label>
                 </div>
                 <div class="col-25">
-                    <input type="text" style="width: 100%;">
+                    <input type="text"  name="jmlh_kantongdarah" style="width: 100%;">
                 </div>
                 <div class="col-5">
                     <label for="subject">stok darah yang dipesan</label>
                 </div>
                 <div class="col-25">
-                    <input type="text" style="width: 100%;">
+                    <input type="text"  name="stokdarah" style="width: 100%;">
                 </div>
                 <div class="col-5">
                     <label for="subject">stok darah yang dipakai RS</label>
                 </div>
                 <div class="col-25">
-                    <input type="text" style="width: 100%;">
+                    <input type="text" name="pakaidarah" style="width: 100%;">
                 </div>
                 <div class="row">
                     <br>
                     <input type="submit"value="Konfirmasi">
                   </div>
-            </div>
+            </div></form>
         </div>
     </nav>
 

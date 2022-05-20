@@ -1,3 +1,8 @@
+<?php
+include "connect.php";
+if(isset($_GET['id'])){
+$idrs = $_GET['id'];}
+?>
 <!DOCTYPE html>
 <!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
 <html lang="en" dir="ltr">
@@ -34,7 +39,6 @@
           </a>
         </li>
         <li class="log_out">
-          <a href="login.html">
             <i class='bx bx-log-out'></i>
             <span class="links_name">Log out</span>
           </a>
@@ -81,30 +85,31 @@
                     <h2>Golongan darah A</h2>
                 </div>
               </div>
-            <div>
+            <div><form action="ubah_datars.php" method="POST">
                 <br>
+                    <input type="hidden" name="id" value="<?= $idrs ?>" style="width: 100%;">
                 <div class="col-5">
                     <label for="subject">Input jumlah kantung darah yang masuk</label>
                 </div>
                 <div class="col-25">
-                    <input type="text" style="width: 100%;">
+                    <input type="text" name="jmlh_kantongdarah" style="width: 100%;">
                 </div>
                 <div class="col-5">
                     <label for="subject">stok darah yang dipesan</label>
                 </div>
                 <div class="col-25">
-                    <input type="text" style="width: 100%;">
+                    <input type="text" name="stokdarah" style="width: 100%;">
                 </div>
                 <div class="col-5">
                     <label for="subject">stok darah yang dipakai RS</label>
                 </div>
                 <div class="col-25">
-                    <input type="text" style="width: 100%;">
+                    <input type="text" name="pakaidarah" style="width: 100%;">
                 </div>
                 <div class="row">
                     <br>
-                    <input type="submit"value="Konfirmasi">
-                  </div>
+                    <button>Konfirmasi</button>
+                  </div></form>
             </div>
         </div>
     </nav>
