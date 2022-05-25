@@ -15,7 +15,7 @@
 		$_SESSION['password'] = $data['password'];
 		$_SESSION['hak_access'] = $data['hak_access'];
 		$_SESSION['id'] = $data['id'];
-		header('location:dashboard.html');
+		header('location:dashboard.php');
 	}
 	else
 	{
