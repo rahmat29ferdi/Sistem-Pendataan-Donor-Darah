@@ -5,6 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/login.css">
+  <?php
+  include "connect.php";
+  
+  if(isset($_POST['submit'])){
+    $user = $_POST['username'];
+    $pass = $_POST['pass'];
+
+    $data =  "SELECT * FROM daftar WHERE email='$user' AND password='$pass'";
+    $result = mysqli_query($con, $data);
+    if ($result->num_rows > 0) {
+        $row = mysqli_fetch_assoc($result);
+        $_SESSION['id_rs'] = $row['id'];
+        header("Location: beranda.html");
+    } else {
+        echo "<script>alert('Email atau password Anda salah. Silahkan coba lagi!')</script>";
+    }
+
+    
+
+  }
+
+  ?>
 </head>
 <body>
   <div class="container">
@@ -15,17 +37,17 @@
     </div>
     <div class="container-right">
       <h1>Silahkan Login</h1>
-      <form action="cekLogin.php" method="post" class="expose">
+      <form action="" method="POST">
         <div class="input">
           <label for="b">Username</label>
-          <input type="text" name="username">
+          <input type="text" name='username'>
         </div>        
         <div class="input">
           <label for="a">Password</label>
-          <input type="password" name="password">
+          <input type="password" name='pass'>
         </div>
-        <button type="submit">Masuk</button>
-        <a href="register.html" >Daftar</a>
+        <button name='submit'>Masuk</button>
+        <a href="register.php" >Daftar</a>
       </form> 
         
     </div>
